@@ -17,10 +17,10 @@ main()
     /*Define variable*/
     int fahrenheit;
 
-    /*For Loop that will end when the 'fahrenheit' variable reaches the value of END*/
+    /*For Loop that will end when the 'fahrenheit' variable reaches the value of constant 'END'*/
     for (fahrenheit = START; fahrenheit <= END; fahrenheit = fahrenheit + STEP)
     {
-        /*Print the repective values, the celcius value is calculated then printed*/
-        printf("Fahrenheit: %.2f -- Celsius: %.2f \n", fahrenheit, (5.0 / 9.0) * (fahrenheit - 32.0));
+        /*Print the respective values, the celsius value is calculated then printed*/
+        printf("Fahrenheit: %.2d -- Celsius: %.2f \n", fahrenheit, (5.0 / 9.0) * (fahrenheit - 32.0));
     }
 }
