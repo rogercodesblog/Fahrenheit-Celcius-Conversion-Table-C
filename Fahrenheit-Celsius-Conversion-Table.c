@@ -9,7 +9,7 @@
 /*Fahrenheit - Celsius Conversion Table */
 main()
 {
-    /*Print Messges to console to explain what's going on*/
+    /*Print Message to console to explain what's going on*/
     printf("This little piece of software was made with the intention of showing how to convert Fahrenheit to Celsius. \n");
     printf("You'll see a table with its respective equivalents. \n\n");
     printf("Fahrenheit-Celsius Conversion Table \n\n");
